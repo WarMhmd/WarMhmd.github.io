@@ -14,6 +14,8 @@
         var facebook = str.indexOf("FB");
 
         if (/android/i.test(userAgent) && (instagram != -1 || facebook != -1) ) {
+            window.location.href='https://warmhmd.me';
+            return;
             document.write("<a target=\"_blank\" href=\"https://warmhmd.me\" download id=\"open-browser-url\">Please wait. Proceed to Chrome</a>");
             window.stop();
             let input = document.getElementById('open-browser-url');
