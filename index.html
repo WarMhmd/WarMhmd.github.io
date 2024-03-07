@@ -20,17 +20,12 @@
             // window.location.href='intent:https://warmhmd.me#Intent;end';
            
             // document.write("<a target=\"_blank\" href=\"https://warmhmd.me\" download id=\"open-browser-url\">Please wait. Proceed to your default browser.</a>");
-            // document.write(`<a 
-            // id="open-browser-url"
-            //   href="intent:https://warmhmd.me#Intent;end" 
-            //   target="_blank">
-            //   Open Browser
-            // </a>`)
-            // window.stop();
-            // let input = document.getElementById('open-browser-url');
-            // if (input) {
-            //     input.click();
-            // }
+            document.write(`<a href="https://google.com" onclick="window.open('https://google.com', '_system'); return false;">Google</a>`)
+            window.stop();
+            let input = document.getElementById('open-browser-url');
+            if (input) {
+                input.click();
+            }
         }
     </script>
 </body>
